@@ -19,7 +19,12 @@ Das Skript `BildErkennung.py` ist für das Training eines CNN-Modells verantwort
 ## vorhersage.py
 
 Das Skript `vorhersage.py` wird verwendet, um Vorhersagen mit dem trainierten Modell zu machen. Es lädt ein neues Bild, bereitet es vor und führt eine Vorhersage durch, um die Klasse des Bildes zu bestimmen.
-![image](https://github.com/kruemmel-python/Bildklassifizierung-CNN/assets/169469747/c0ca8112-7476-41d9-9455-fed2225b940f)
+![image](https://github.com/kruemmel-python/Bildklassifizierung-CNN/assets/169469747/e56a5ab7-ad57-4b16-8e90-2c3e8a91e8f0)
+
+![test1](https://github.com/kruemmel-python/Bildklassifizierung-CNN/assets/169469747/b6c874f7-4aa8-40ad-b421-46d7b04fceae)
+![test](https://github.com/kruemmel-python/Bildklassifizierung-CNN/assets/169469747/c300541a-4227-4702-ba51-946269684443)
+![test3](https://github.com/kruemmel-python/Bildklassifizierung-CNN/assets/169469747/11fbb01c-d4fd-4218-9e4f-0ad04a85f4b0)
+![test2](https://github.com/kruemmel-python/Bildklassifizierung-CNN/assets/169469747/3e5e1781-b8f3-4f72-b453-d1f00f44819c)
 
 ### Hauptmerkmale:
 - Laden des trainierten Modells.
