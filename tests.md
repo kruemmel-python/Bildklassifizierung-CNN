@@ -1,4 +1,4 @@
-Hier wurde ein Test durchgeführt mit 2 Greenscreenfähigen und 2 nicht Greenscreenfähigen bilder durchgeführt. Es war eine 100% genaue Erkennung.
+Hier wurde ein Test durchgeführt mit 2 Greenscreenfähigen und 2 nicht Greenscreenfähigen Bildern. Es war eine 100% genaue Erkennung.
 
 ![image](https://github.com/kruemmel-python/Bildklassifizierung-CNN/assets/169469747/3d122178-b123-405b-956d-4e871feb15c6)
 ![test](https://github.com/kruemmel-python/Bildklassifizierung-CNN/assets/169469747/767154fa-3175-423e-af31-e33e402ec57f)
