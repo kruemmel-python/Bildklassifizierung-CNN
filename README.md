@@ -1,50 +1,49 @@
-# das Modell kann hier heruntergeladen werden. Achtung Es ist bereits trainiert und ist 3 GB groß
 
-https://1drv.ms/u/s!AroxmBWhYNuLzk4hn9CbWPVjzitm?e=nZp9aP
-
-# BildErkennung und Vorhersage
-
-Dieses Repository enthält 5 Python-Skripte zur Bildklassifizierung und Vorhersage Test, Nutzung des keras model um Bilder oder vidoes in den Greenscreen einzufügen mit einem Convolutional Neural Network (CNN) unter Verwendung von TensorFlow und Keras.
 ![l1](https://github.com/kruemmel-python/Bildklassifizierung-CNN/assets/169469747/4f691426-3ba0-40f0-9850-b8e926714318)
 
 
 https://github.com/kruemmel-python/Bildklassifizierung-CNN/assets/169469747/fa53ca2d-2324-4d73-bb3c-4e28ba12eaab
 
 
+Anleitung zur Verwendung des Bildklassifizierungs-CNN-Projekts
+Dieses Projekt verwendet Convolutional Neural Networks (CNNs) zur Bildklassifizierung und zum Einfügen von Bildern oder Videos in einen Greenscreen-Hintergrund. Folgen Sie den untenstehenden Schritten, um die verschiedenen Funktionen des Projekts zu nutzen.
 
-## model_create_and_training.py
+Schritt 1: Installation der notwendigen Software
+Repository klonen:
+Laden Sie das Projekt von der Repository-Seite herunter und navigieren Sie in das Projektverzeichnis.
 
-Das Skript `model_create_and_training.py` ist für das Training eines CNN-Modells verantwortlich. Es lädt Bilddaten aus zwei Ordnern, die gemischte Bilder und Greenscreen-Bilder enthalten, und verwendet Datenanreicherungstechniken, um die Robustheit des Modells zu verbessern.
+Virtuelle Umgebung einrichten (optional, aber empfohlen):
+Erstellen und aktivieren Sie eine virtuelle Python-Umgebung, um Abhängigkeiten isoliert zu installieren.
 
-### Hauptmerkmale:
-- Datenanreicherung mit Rotation, Verschiebung, Scherung, Zoom und Spiegelung.
-- Definition der Bildgröße und Pfade zu den Bildordnern.
-- Laden von Daten und Labels aus den Ordnern.
-- Erstellen eines sequentiellen Modells mit Convolutional, Pooling, Flatten und Dense Schichten.
-- Kompilieren des Modells mit Adam-Optimierer und sparse_categorical_crossentropy als Verlustfunktion.
-- Trainieren des Modells mit den geladenen Daten.
-- Speichern des trainierten Modells.
+Abhängigkeiten installieren:
+Installieren Sie alle benötigten Bibliotheken, die im requirements.txt-File aufgelistet sind.
 
-## prediction_testing.py
+Schritt 2: Bildkonvertierung
+Verwenden Sie das Bildkonvertierungsskript, um Ihre Bilder in das erforderliche Format für das Modell zu bringen. Dies umfasst das Anpassen der Bildgröße und die Normalisierung der Pixelwerte.
 
-Das Skript `prediction_testing.py` wird verwendet, um Vorhersagen mit dem trainierten Modell zu machen. Es lädt ein neues Bild, bereitet es vor und führt eine Vorhersage durch, um die Klasse des Bildes zu bestimmen.
+Schritt 3: Erstellen und Trainieren des Modells
+Erstellen und trainieren Sie das CNN-Modell:
 
+Laden Sie Ihren Datensatz.
+Definieren Sie die Modellarchitektur.
+Trainieren Sie das Modell über mehrere Epochen.
+Das Skript speichert das trainierte Modell automatisch zur späteren Verwendung.
+Alternativ können Sie ein bereits trainiertes Modell herunterladen, das für weiteres Training oder die direkte Nutzung verwendet werden kann. Das Modell ist etwa 3 GB groß und kann hier https://1drv.ms/u/s!AroxmBWhYNuLzk6WupG1isy0NcPk?e=up2Iup heruntergeladen werden.
 
-### Hauptmerkmale:
-- Laden des trainierten Modells.
-- Vorbereiten eines neuen Bildes für die Vorhersage.
-- Durchführen der Vorhersage und Ausgabe der vorhergesagten Klasse.
+Schritt 4: Testen der Modellvorhersagen
+Überprüfen Sie die Leistung des Modells, indem Sie neue Bilder durch das Modell laufen lassen und die Vorhersagen analysieren. Dies hilft Ihnen, die Genauigkeit des Modells auf ungesehenen Daten zu beurteilen und mögliche Verbesserungsbereiche zu identifizieren.
 
-## Installation
+Schritt 5: Einfügen eines Bildes in einen Greenscreen-Hintergrund
+Nutzen Sie das entsprechende Skript, um ein Bild in einen Greenscreen-Hintergrund einzufügen. Das trainierte Modell erkennt den Bereich des Bildes, der in den Greenscreen-Hintergrund eingefügt werden soll.
 
-Bevor Sie die Skripte ausführen, stellen Sie sicher, dass Sie die folgenden Bibliotheken installiert haben. Sie können sie mit `pip` installieren, dem Paketmanager für Python.
+Schritt 6: Einfügen eines Videos in einen Greenscreen-Hintergrund
+Verwenden Sie das Videobearbeitungsskript, um ein Video in einen Greenscreen-Hintergrund einzufügen. Dies ist besonders nützlich für die Erstellung von Videos mit Spezialeffekten.
 
-```bash
-pip install numpy
-pip install tensorflow
-pip install keras
+Schritt 7: Beispielvideo
+Nutzen Sie das bereitgestellte Beispielvideo, um die Fähigkeiten des
 
+Modells in einer realen Anwendung zu demonstrieren. Das Video zeigt, wie das Modell in der Praxis funktioniert, beispielsweise beim Einfügen in einen Greenscreen-Hintergrund.
 
-## Lizenz
+Lizenz und Dokumentation
+Stellen Sie sicher, dass Sie die Lizenzbedingungen des Projekts verstehen, und verwenden Sie die bereitgestellte Dokumentation, um detaillierte Anweisungen und Erklärungen zu den einzelnen Komponenten und deren Verwendung zu erhalten.
 
-Dieses Projekt ist lizenziert unter der MIT Lizenz - siehe die LICENSE Datei für Details.
