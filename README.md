@@ -1,6 +1,6 @@
 # BildErkennung und Vorhersage
 
-Dieses Repository enthält zwei Python-Skripte zur Bildklassifizierung und Vorhersage mit einem Convolutional Neural Network (CNN) unter Verwendung von TensorFlow und Keras.
+Dieses Repository enthält 5 Python-Skripte zur Bildklassifizierung und Vorhersage Test, Nutzung des keras model um Bilder oder vidoes in den Greenscreen einzufügen mit einem Convolutional Neural Network (CNN) unter Verwendung von TensorFlow und Keras.
 ![l1](https://github.com/kruemmel-python/Bildklassifizierung-CNN/assets/169469747/4f691426-3ba0-40f0-9850-b8e926714318)
 
 
@@ -8,9 +8,9 @@ https://github.com/kruemmel-python/Bildklassifizierung-CNN/assets/169469747/fa53
 
 
 
-## BildErkennung.py
+## model_create_and_training.py
 
-Das Skript `BildErkennung.py` ist für das Training eines CNN-Modells verantwortlich. Es lädt Bilddaten aus zwei Ordnern, die gemischte Bilder und Greenscreen-Bilder enthalten, und verwendet Datenanreicherungstechniken, um die Robustheit des Modells zu verbessern.
+Das Skript `model_create_and_training.py` ist für das Training eines CNN-Modells verantwortlich. Es lädt Bilddaten aus zwei Ordnern, die gemischte Bilder und Greenscreen-Bilder enthalten, und verwendet Datenanreicherungstechniken, um die Robustheit des Modells zu verbessern.
 
 ### Hauptmerkmale:
 - Datenanreicherung mit Rotation, Verschiebung, Scherung, Zoom und Spiegelung.
@@ -21,13 +21,9 @@ Das Skript `BildErkennung.py` ist für das Training eines CNN-Modells verantwort
 - Trainieren des Modells mit den geladenen Daten.
 - Speichern des trainierten Modells.
 
-## vorhersage.py
+## prediction_testing.py
 
-
-
-
-
-Das Skript `vorhersage.py` wird verwendet, um Vorhersagen mit dem trainierten Modell zu machen. Es lädt ein neues Bild, bereitet es vor und führt eine Vorhersage durch, um die Klasse des Bildes zu bestimmen.
+Das Skript `prediction_testing.py` wird verwendet, um Vorhersagen mit dem trainierten Modell zu machen. Es lädt ein neues Bild, bereitet es vor und führt eine Vorhersage durch, um die Klasse des Bildes zu bestimmen.
 
 
 ### Hauptmerkmale:
@@ -44,15 +40,6 @@ pip install numpy
 pip install tensorflow
 pip install keras
 
-
-## Anleitung
-
-Um die Skripte zu verwenden, folgen Sie diesen Schritten:
-
-1. Stellen Sie sicher, dass Sie TensorFlow und Keras installiert haben.
-2. Passen Sie die Pfade in den Skripten an Ihre lokalen Verzeichnisse an.
-3. Führen Sie `BildErkennung.py` aus, um das Modell zu trainieren und zu speichern.
-4. Führen Sie `vorhersage.py` aus, um das Modell für neue Bilder zu verwenden.
 
 ## Lizenz
 
