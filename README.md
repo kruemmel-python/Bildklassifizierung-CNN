@@ -1,3 +1,7 @@
+# das Modell kann hier heruntergeladen werden. Achtung Es ist bereits trainiert und ist 3 GB groß
+
+https://1drv.ms/u/s!AroxmBWhYNuLzk4hn9CbWPVjzitm?e=nZp9aP
+
 # BildErkennung und Vorhersage
 
 Dieses Repository enthält 5 Python-Skripte zur Bildklassifizierung und Vorhersage Test, Nutzung des keras model um Bilder oder vidoes in den Greenscreen einzufügen mit einem Convolutional Neural Network (CNN) unter Verwendung von TensorFlow und Keras.
