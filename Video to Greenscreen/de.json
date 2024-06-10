@@ -1,0 +1,16 @@
+{
+	"title": "Greenscreen Ersetzer",
+	"choose_image": "Bild auswählen:",
+	"select_image": "Bild auswählen",
+	"choose_video": "Video auswählen:",
+	"select_video": "Video auswählen",
+	"choose_output_folder": "Ausgabeordner auswählen:",
+	"select_output_folder": "Ausgabeordner auswählen",
+	"run": "Ausführen",
+	"success": "Erfolg",
+	"result_saved": "Ergebnis gespeichert unter {output_video_path}",
+	"error": "Fehler",
+	"select_files_and_folder": "Bitte wählen Sie alle benötigten Dateien und Ordner.",
+	"failed_to_load_image": "Fehler beim Laden des Originalbildes aus '{original_image_path}'.",
+	"failed_to_open_video": "Fehler beim Öffnen der Videodatei '{video_path}'."
+}
