@@ -1,0 +1,15 @@
+{
+  "title": "Замена зеленого фона",
+  "choose_image": "Выберите изображение:",
+  "select_image": "Выбрать изображение",
+  "choose_video": "Выберите видео:",
+  "select_video": "Выбрать видео",
+  "choose_output_folder": "Выберите папку для вывода:",
+  "select_output_folder": "Выбрать папку для вывода",
+  "run": "Запустить",
+  "success": "Успех",
+  "result_saved": "Результат сохранен в {output_video_path}",
+  "error": "Ошибка",
+  "select_files_and_folder": "Пожалуйста, выберите все необходимые файлы и папки.",
+  "failed_to_load_image": "Не удалось загрузить оригинальное изображение из '{original_image_path}'."
+}

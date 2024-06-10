@@ -1,0 +1,15 @@
+{
+  "title": "Greenscreen Replacer",
+  "choose_image": "Choose Image:",
+  "select_image": "Select Image",
+  "choose_video": "Choose Video:",
+  "select_video": "Select Video",
+  "choose_output_folder": "Choose Output Folder:",
+  "select_output_folder": "Select Output Folder",
+  "run": "Run",
+  "success": "Success",
+  "result_saved": "Result saved to {output_video_path}",
+  "error": "Error",
+  "select_files_and_folder": "Please select all required files and folders.",
+  "failed_to_load_image": "Failed to load original image from '{original_image_path}'."
+}
